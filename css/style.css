@@ -4,6 +4,18 @@ body {
   line-height: 1.8;
 }
 
+body a {
+  color: #014AF4;
+  text-decoration: none;
+}
+
+body a:hover {
+  background-color: #e8eefe;
+  text-decoration: none;
+  transition: 0.5s;
+
+}
+
 h1 {
   font-size: 24px;
   margin: 0px;
@@ -19,12 +31,9 @@ p {
   color: #27303B;
   opacity: 0.4;
   height: 24px;
-  margin: 16px 0px;
+  margin: 24px 0px;
 }
 
-.section a {
-  text-decoration: none;
-}
 
 .item {
   height: 60px;
@@ -32,6 +41,11 @@ p {
   align-items: center;
   cursor: pointer;
 }
+
+.item:hover .item-content h3 {
+  color: #014AF4;
+}
+
 
 .item img {
   height: 35px;
@@ -140,4 +154,3 @@ hr {
     padding: 48px;
   }
 }
-
